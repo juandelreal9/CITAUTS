@@ -1,0 +1,90 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:System="clr-namespace:System;assembly=mscorlib"
+             x:Class="UTCITAS.Views.GenerarCitaView"
+             Title="GenerarCitaView">
+
+        <Grid RowDefinitions=".3*,.7*">
+
+        <Image Aspect="AspectFill" Source="logofondo.png"/>
+        <Grid BackgroundColor="ForestGreen" Opacity=".9"/>
+        <Grid ColumnDefinitions="*,*">
+            <Image Aspect="AspectFit"
+                   HeightRequest="120"
+                   Source="logouts.png"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+
+            <RoundRectangle Margin="0,-30,0,0"
+                            CornerRadius="30,30,0,0"
+                            Fill="White"/>
+
+            <ScrollView>
+                <VerticalStackLayout Margin="30,30,30,30" Spacing="25">
+
+                    <Label FontAttributes="Bold"
+                           FontFamily="Bold"
+                           FontSize="Large"
+                           Text="Reservar una Cita"
+                           TextColor="#2D2D2D"
+                           HorizontalOptions="Center"/>
+
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="1. Selecciona el servicio:" 
+                               FontAttributes="Bold" 
+                               TextColor="#2D2D2D"/>
+                        <Picker x:Name="ServicePicker"
+                                Title="Elige Enfermería o Psicología"
+                                BackgroundColor="#E8F5E9"
+                                TextColor="Black"
+                                SelectedItem="{Binding Servicio}">
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>Enfermería</x:String>
+                                    <x:String>Psicología</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Spacing="5" x:Name="DaySelectionLayout">
+                        <Label Text="2. Selecciona el día disponible:" FontAttributes="Bold" TextColor="#2D2D2D"/>
+                        <DatePicker x:Name="AppointmentDatePicker"
+                                    Format="D"
+                                    MinimumDate="{x:Static System:DateTime.Now}"
+                                    BackgroundColor="#E8F5E9"
+                                    TextColor="Black"
+                                    Date="{Binding Fecha}"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Spacing="5" x:Name="TimeSelectionLayout">
+                        <Label Text="3. Selecciona el horario (9:00 a 12:00):" FontAttributes="Bold" TextColor="#2D2D2D"/>
+                        <Picker x:Name="TimePicker"
+                                Title="Elige un bloque de una hora"
+                                BackgroundColor="#E8F5E9"
+                                TextColor="Black"
+                                SelectedItem="{Binding BloqueHorario}">
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>09:00 - 10:00</x:String>
+                                    <x:String>10:00 - 11:00</x:String>
+                                    <x:String>11:00 - 12:00</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
+
+                    </VerticalStackLayout>
+
+                    <Button Text="Confirmar Cita"
+                            BackgroundColor="ForestGreen"
+                            TextColor="White"
+                            HeightRequest="50"
+                            Margin="0,20,0,0"
+                            Command="{Binding ConfirmarCitaCommand}"/>
+
+                </VerticalStackLayout>
+            </ScrollView>
+        </Grid>
+    </Grid>
+</ContentPage>

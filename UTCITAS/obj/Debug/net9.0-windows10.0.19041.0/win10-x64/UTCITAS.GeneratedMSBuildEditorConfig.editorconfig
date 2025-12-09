@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net9.0-windows10.0.19041.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v9.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UTCITAS
+build_property.ProjectDir = C:\Users\juand\Desktop\UTCITASsindb\UTCITAS\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/juand/Desktop/UTCITASsindb/UTCITAS/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UTCITAS.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/juand/Desktop/UTCITASsindb/UTCITAS/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UTCITAS.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/juand/Desktop/UTCITASsindb/UTCITAS/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UTCITAS.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/juand/Desktop/UTCITASsindb/UTCITAS/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UTCITAS.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/juand/Desktop/UTCITASsindb/UTCITAS/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UTCITAS.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/juand/Desktop/UTCITASsindb/UTCITAS/Views/AyudaView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UTCITAS.Views.AyudaView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AyudaView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AyudaView.xaml
+
+[C:/Users/juand/Desktop/UTCITASsindb/UTCITAS/Views/CrearCuenta.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UTCITAS.Views.CrearCuenta.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CrearCuenta.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CrearCuenta.xaml
+
+[C:/Users/juand/Desktop/UTCITASsindb/UTCITAS/Views/GenerarCitaView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UTCITAS.Views.GenerarCitaView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GenerarCitaView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GenerarCitaView.xaml
+
+[C:/Users/juand/Desktop/UTCITASsindb/UTCITAS/Views/LoginView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UTCITAS.Views.LoginView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginView.xaml
+
+[C:/Users/juand/Desktop/UTCITASsindb/UTCITAS/Views/MiCuentaView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UTCITAS.Views.MiCuentaView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MiCuentaView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MiCuentaView.xaml
+
+[C:/Users/juand/Desktop/UTCITASsindb/UTCITAS/Views/MiPerfilView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UTCITAS.Views.MiPerfilView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MiPerfilView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MiPerfilView.xaml
+
+[C:/Users/juand/Desktop/UTCITASsindb/UTCITAS/Views/ModificarCitaView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UTCITAS.Views.ModificarCitaView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ModificarCitaView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ModificarCitaView.xaml

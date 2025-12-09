@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UTCITAS.Views.AyudaView"
+             Title="AyudaView">
+    <Grid RowDefinitions=".3*,.7*">
+
+        <Grid Grid.Row="0" RowDefinitions="*,*" RowSpacing="0">
+
+            <Image Aspect="AspectFill" Source="logofondo.png" Grid.RowSpan="2"/>
+
+            <Grid BackgroundColor="ForestGreen" Opacity=".9" Grid.RowSpan="2"/>
+
+            <Grid Grid.Row="0" ColumnDefinitions="*,*">
+                <Image Grid.ColumnSpan="2"
+                       Aspect="AspectFit"
+                       HeightRequest="120"
+                       Source="logouts.png"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+            </Grid>
+
+            <Label Grid.Row="1"
+                   Text="Ayuda de la Aplicación"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   HorizontalOptions="Center"                  
+                   Margin="0,0,0,10"/>
+        </Grid>
+
+        <ScrollView Grid.Row="1" Padding="20">
+            <VerticalStackLayout Spacing="15">
+
+                <Label Text="¡Bienvenido a la sección de Ayuda! Aquí encontrarás instrucciones sencillas para usar nuestra aplicación."
+                       FontSize="Medium"
+                       FontAttributes="Italic"/>
+
+                <Label Text="Navegación Principal 🧭" FontAttributes="Bold" FontSize="Title" TextColor="ForestGreen"/>
+                <Label Text="Utiliza la opción Generar Cita para acceder a las opciones disponibles (psicología y enfermería)"/>
+                <Label Text="Selecciona la fecha y hora que mejor te convenga para tu cita."/>
+                <Label Text="Confirma tu cita y recibirás una notificación con los detalles."/>
+                <Label Text="Mi Cuenta 👤" FontAttributes="Bold" FontSize="Title" TextColor="ForestGreen"/>
+                <Label Text="En Mi Cuenta puedes ver y gestionar tus citas programadas."/>
+                <Label Text="También puedes actualizar tu información personal y preferencias."/>
+                <Label Text="La Flecha ← te lleva a la pantalla anterior."/>
+
+               
+
+
+               
+
+
+                <Label Text="Si tienes problemas adicionales, por favor contacta a soporte técnico."
+                       HorizontalOptions="Center"
+                       Margin="0,20,0,0"
+                       TextColor="Gray"/>
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

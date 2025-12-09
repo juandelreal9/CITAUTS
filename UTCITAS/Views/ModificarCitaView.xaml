@@ -1,0 +1,212 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:System="clr-namespace:System;assembly=mscorlib"
+             x:Class="UTCITAS.Views.ModificarCitaView"
+             Title="Modificar Cita">
+    <Grid RowDefinitions=".3*,.7*">
+
+        <Grid Grid.Row="0" RowDefinitions="*,*" RowSpacing="0">
+            <Image Aspect="AspectFill" Source="logofondo.png" Grid.RowSpan="2"/>
+            <Grid BackgroundColor="ForestGreen" Opacity=".9" Grid.RowSpan="2"/>
+
+            <Grid Grid.Row="0" ColumnDefinitions="*,*">
+                <Image Grid.ColumnSpan="2"
+                       Aspect="AspectFit"
+                       HeightRequest="120"
+                       Source="logouts.png"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+            </Grid>
+
+            <Label Grid.Row="1"
+                   Text="Modificar Cita"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,10"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <RoundRectangle Margin="0,-30,0,0"
+                            CornerRadius="30,30,0,0"
+                            Fill="White"/>
+
+            <ScrollView>
+                <VerticalStackLayout Margin="30,30,30,30" Spacing="20">
+
+                    <!-- LISTA DE CITAS -->
+                    <VerticalStackLayout IsVisible="{Binding MostrarLista}" Spacing="15">
+
+                        <Label Text="Selecciona la cita que deseas modificar" 
+                               FontAttributes="Bold" 
+                               FontSize="Medium"
+                               TextColor="#2D2D2D"/>
+
+                        <!-- Mensaje si no hay citas -->
+                        <Frame IsVisible="{Binding TieneCitas, Converter={StaticResource InvertedBoolConverter}}"
+                               BackgroundColor="#FFF3CD"
+                               CornerRadius="10"
+                               Padding="15"
+                               HasShadow="False">
+                            <Label Text="No tienes citas programadas para modificar."
+                                   TextColor="#856404"
+                                   HorizontalTextAlignment="Center"/>
+                        </Frame>
+
+                        <!-- Lista de citas -->
+                        <CollectionView ItemsSource="{Binding Citas}"
+                                        IsVisible="{Binding TieneCitas}"
+                                        SelectionMode="None">
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Frame BackgroundColor="White" 
+                                           BorderColor="#E0E0E0"
+                                           CornerRadius="10" 
+                                           Padding="15"
+                                           Margin="0,5"
+                                           HasShadow="True">
+                                        <Frame.GestureRecognizers>
+                                            <TapGestureRecognizer 
+                                                Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.SeleccionarCitaCommand}"
+                                                CommandParameter="{Binding .}"/>
+                                        </Frame.GestureRecognizers>
+
+                                        <Grid ColumnDefinitions="*,Auto" RowSpacing="8">
+
+                                            <VerticalStackLayout Grid.Column="0" Spacing="5">
+                                                <Label Text="{Binding Servicio}" 
+                                                       FontAttributes="Bold"
+                                                       FontSize="Medium"
+                                                       TextColor="ForestGreen"/>
+
+                                                <Label TextColor="#666">
+                                                    <Label.FormattedText>
+                                                        <FormattedString>
+                                                            <Span Text="📅 " FontSize="14"/>
+                                                            <Span Text="{Binding Fecha, StringFormat='{0:dd/MM/yyyy}'}" 
+                                                                  FontSize="14"/>
+                                                        </FormattedString>
+                                                    </Label.FormattedText>
+                                                </Label>
+
+                                                <Label TextColor="#666">
+                                                    <Label.FormattedText>
+                                                        <FormattedString>
+                                                            <Span Text="🕐 " FontSize="14"/>
+                                                            <Span Text="{Binding Hora, StringFormat='{0:HH:mm}'}" 
+                                                                  FontSize="14"/>
+                                                        </FormattedString>
+                                                    </Label.FormattedText>
+                                                </Label>
+                                            </VerticalStackLayout>
+
+                                            <Image Grid.Column="1"
+                                                   WidthRequest="30"
+                                                   HeightRequest="30"
+                                                   VerticalOptions="Center">
+                                                <Image.Source>
+                                                    <FontImageSource 
+                                                        FontFamily="awesomesolid" 
+                                                        Glyph="&#xf054;" 
+                                                        Size="20" 
+                                                        Color="ForestGreen"/>
+                                                </Image.Source>
+                                            </Image>
+                                        </Grid>
+                                    </Frame>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                    </VerticalStackLayout>
+
+                    <!-- FORMULARIO DE EDICIÓN -->
+                    <VerticalStackLayout IsVisible="{Binding MostrarFormulario}" Spacing="20">
+
+                        <Label Text="Editar Cita" 
+                               FontAttributes="Bold" 
+                               FontSize="Large"
+                               TextColor="#2D2D2D"
+                               HorizontalOptions="Center"/>
+
+                        <!-- Servicio -->
+                        <VerticalStackLayout Spacing="5">
+                            <Label Text="Servicio:" 
+                                   FontAttributes="Bold" 
+                                   TextColor="#2D2D2D"/>
+                            <Picker Title="Selecciona un servicio"
+                                    BackgroundColor="#E8F5E9"
+                                    TextColor="Black"
+                                    SelectedItem="{Binding Servicio}">
+                                <Picker.ItemsSource>
+                                    <x:Array Type="{x:Type x:String}">
+                                        <x:String>Enfermería</x:String>
+                                        <x:String>Psicología</x:String>
+                                    </x:Array>
+                                </Picker.ItemsSource>
+                            </Picker>
+                        </VerticalStackLayout>
+
+                        <!-- Fecha -->
+                        <VerticalStackLayout Spacing="5">
+                            <Label Text="Fecha:" 
+                                   FontAttributes="Bold" 
+                                   TextColor="#2D2D2D"/>
+                            <DatePicker Format="D"
+                                        MinimumDate="{x:Static System:DateTime.Now}"
+                                        BackgroundColor="#E8F5E9"
+                                        TextColor="Black"
+                                        Date="{Binding Fecha}"/>
+                        </VerticalStackLayout>
+
+                        <!-- Horario -->
+                        <VerticalStackLayout Spacing="5">
+                            <Label Text="Horario:" 
+                                   FontAttributes="Bold" 
+                                   TextColor="#2D2D2D"/>
+                            <Picker Title="Selecciona un horario"
+                                    BackgroundColor="#E8F5E9"
+                                    TextColor="Black"
+                                    SelectedItem="{Binding BloqueHorario}">
+                                <Picker.ItemsSource>
+                                    <x:Array Type="{x:Type x:String}">
+                                        <x:String>09:00 - 10:00</x:String>
+                                        <x:String>10:00 - 11:00</x:String>
+                                        <x:String>11:00 - 12:00</x:String>
+                                    </x:Array>
+                                </Picker.ItemsSource>
+                            </Picker>
+                        </VerticalStackLayout>
+
+                        <!-- Botones de acción -->
+                        <Grid ColumnDefinitions="*,*" ColumnSpacing="10" Margin="0,20,0,0">
+                            <Button Grid.Column="0"
+                                    Text="Guardar Cambios"
+                                    BackgroundColor="ForestGreen"
+                                    TextColor="White"
+                                    HeightRequest="50"
+                                    Command="{Binding GuardarCambiosCommand}"/>
+
+                            <Button Grid.Column="1"
+                                    Text="Cancelar Edición"
+                                    BackgroundColor="Gray"
+                                    TextColor="White"
+                                    HeightRequest="50"
+                                    Command="{Binding CancelarEdicionCommand}"/>
+                        </Grid>
+
+                        <!-- Botón cancelar cita -->
+                        <Button Text="Cancelar esta Cita"
+                                BackgroundColor="#DC3545"
+                                TextColor="White"
+                                HeightRequest="50"
+                                Margin="0,20,0,0"
+                                Command="{Binding CancelarCitaCommand}"/>
+
+                    </VerticalStackLayout>
+
+                </VerticalStackLayout>
+            </ScrollView>
+        </Grid>
+    </Grid>
+</ContentPage>

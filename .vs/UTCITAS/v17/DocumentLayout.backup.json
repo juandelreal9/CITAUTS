@@ -1,0 +1,281 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\views\\crearcuenta.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\views\\crearcuenta.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\converters\\invertedboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\converters\\invertedboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\viewmodels\\generarcitaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\viewmodels\\generarcitaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\viewmodels\\crearcuentaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\viewmodels\\crearcuentaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\services\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\services\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\services\\idataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\services\\idataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\views\\crearcuenta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\views\\crearcuenta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\views\\ayudaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\views\\ayudaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|c:\\users\\juand\\desktop\\utcitassindb\\utcitas\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{802D1E5B-DC76-4858-A8F3-B6850951010C}|UTCITAS\\UTCITAS.csproj|solutionrelative:utcitas\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Views\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "UTCITAS\\Views\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Views\\LoginView.xaml.cs",
+              "RelativeToolTip": "UTCITAS\\Views\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T05:22:59.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "UTCITAS\\Views\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Views\\LoginView.xaml",
+              "RelativeToolTip": "UTCITAS\\Views\\LoginView.xaml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-23T00:18:20.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "UTCITAS\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "UTCITAS\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAjwBoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T00:33:01.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InvertedBoolConverter.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Converters\\InvertedBoolConverter.cs",
+              "RelativeDocumentMoniker": "UTCITAS\\Converters\\InvertedBoolConverter.cs",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Converters\\InvertedBoolConverter.cs",
+              "RelativeToolTip": "UTCITAS\\Converters\\InvertedBoolConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T04:48:42.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CrearCuentaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\ViewModels\\CrearCuentaViewModel.cs",
+              "RelativeDocumentMoniker": "UTCITAS\\ViewModels\\CrearCuentaViewModel.cs",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\ViewModels\\CrearCuentaViewModel.cs",
+              "RelativeToolTip": "UTCITAS\\ViewModels\\CrearCuentaViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvyMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T04:46:13.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Services\\NavigationService.cs",
+              "RelativeDocumentMoniker": "UTCITAS\\Services\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Services\\NavigationService.cs",
+              "RelativeToolTip": "UTCITAS\\Services\\NavigationService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvxsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T04:45:00.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "INavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Services\\INavigationService.cs",
+              "RelativeDocumentMoniker": "UTCITAS\\Services\\INavigationService.cs",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Services\\INavigationService.cs",
+              "RelativeToolTip": "UTCITAS\\Services\\INavigationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T04:44:30.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Services\\DataService.cs",
+              "RelativeDocumentMoniker": "UTCITAS\\Services\\DataService.cs",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Services\\DataService.cs",
+              "RelativeToolTip": "UTCITAS\\Services\\DataService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwv0UAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T04:43:53.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDataService.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Services\\IDataService.cs",
+              "RelativeDocumentMoniker": "UTCITAS\\Services\\IDataService.cs",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Services\\IDataService.cs",
+              "RelativeToolTip": "UTCITAS\\Services\\IDataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T04:43:10.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CrearCuenta.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Views\\CrearCuenta.xaml.cs",
+              "RelativeDocumentMoniker": "UTCITAS\\Views\\CrearCuenta.xaml.cs",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Views\\CrearCuenta.xaml.cs",
+              "RelativeToolTip": "UTCITAS\\Views\\CrearCuenta.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvysAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T00:45:58.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AyudaView.xaml",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Views\\AyudaView.xaml",
+              "RelativeDocumentMoniker": "UTCITAS\\Views\\AyudaView.xaml",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Views\\AyudaView.xaml",
+              "RelativeToolTip": "UTCITAS\\Views\\AyudaView.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-24T00:30:47.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cita.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Models\\Cita.cs",
+              "RelativeDocumentMoniker": "UTCITAS\\Models\\Cita.cs",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Models\\Cita.cs",
+              "RelativeToolTip": "UTCITAS\\Models\\Cita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T00:15:47.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenerarCitaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\ViewModels\\GenerarCitaViewModel.cs",
+              "RelativeDocumentMoniker": "UTCITAS\\ViewModels\\GenerarCitaViewModel.cs",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\ViewModels\\GenerarCitaViewModel.cs",
+              "RelativeToolTip": "UTCITAS\\ViewModels\\GenerarCitaViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:37:34.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\AppShell.xaml",
+              "RelativeDocumentMoniker": "UTCITAS\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\AppShell.xaml",
+              "RelativeToolTip": "UTCITAS\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-24T01:04:13.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CrearCuenta.xaml",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Views\\CrearCuenta.xaml",
+              "RelativeDocumentMoniker": "UTCITAS\\Views\\CrearCuenta.xaml",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\Views\\CrearCuenta.xaml",
+              "RelativeToolTip": "UTCITAS\\Views\\CrearCuenta.xaml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAF8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-23T00:19:07.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "UTCITAS\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\juand\\Desktop\\UTCITASsindb\\UTCITAS\\AppShell.xaml.cs",
+              "RelativeToolTip": "UTCITAS\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T01:04:18.115Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

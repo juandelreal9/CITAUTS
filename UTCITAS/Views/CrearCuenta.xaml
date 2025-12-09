@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UTCITAS.Views.CrearCuenta"
+             Title="CrearCuenta">
+    <Grid RowDefinitions=".3*,.7*">
+        <Image Aspect="AspectFill" Source="logofondo.png"/>
+        <Grid BackgroundColor="ForestGreen" Opacity=".9"/>
+        <Grid ColumnDefinitions="*,*">
+            <Image Aspect="AspectFit"
+           HeightRequest="120"
+           Source="logouts.png"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+
+            <RoundRectangle Margin="0,-30,0,0"
+                    CornerRadius="30,30,0,0"
+                    Fill="White"/>
+
+            <ScrollView>
+                <VerticalStackLayout Margin="30,30,30,30">
+
+                    <Label FontAttributes="Bold"
+                   FontFamily="Bold"
+                   FontSize="Medium"
+                   Text="Crea tu Cuenta!"
+                   TextColor="#2D2D2D"/>
+                   
+
+                    <Grid Margin="0,30,0,0" ColumnDefinitions=".2*, .8*">
+                        <RoundRectangle Background="#EDEBF6"
+                                CornerRadius="10"
+                                HeightRequest="60"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                WidthRequest="60"/>
+                        <Image HorizontalOptions="Center">
+                            <Image.Source>
+                                <FontImageSource FontFamily="awesomesolid"
+                                         Glyph="&#xf007;"
+                                         Size="100"
+                                         Color="Green"/>
+                            </Image.Source>
+                        </Image>
+                        <Entry Grid.Column="1"
+                       Placeholder="Nombre"
+                       TextColor="Black"
+                       Text="{Binding Nombre}"
+                       VerticalOptions="Center"
+                       />
+                    </Grid>
+
+                    <Grid Margin="0,30,0,0" ColumnDefinitions=".2*, .8*">
+                        <RoundRectangle Background="#EDEBF6"
+                                        CornerRadius="10"
+                                        HeightRequest="60"
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="Center"
+                                        WidthRequest="60"/>
+                        <Image HorizontalOptions="Center">
+                            <Image.Source>
+                                <FontImageSource FontFamily="awesomesolid"
+                                                Glyph="&#xf0e0;"
+                                                Size="100"
+                                                Color="Green"/>
+                            </Image.Source>
+                        </Image>
+                        <Entry Grid.Column="1"
+                                        Placeholder="Correo electrónico"
+                                        TextColor="Black"
+                                        Text="{Binding Correo}"
+                                        VerticalOptions="Center"
+                                        />
+                    </Grid>
+
+                    <Grid Margin="0,30,0,0" ColumnDefinitions=".2*, .8*">
+                        <RoundRectangle Background="#EDEBF6"
+                                CornerRadius="10"
+                                HeightRequest="60"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center"
+                                WidthRequest="60"/>
+                        <Image HorizontalOptions="Center">
+                            <Image.Source>
+                                <FontImageSource FontFamily="awesomesolid"
+                                         Glyph="&#xf084;"
+                                         Size="100"
+                                         Color="Green"/>
+                            </Image.Source>
+                        </Image>
+                        <Entry Grid.Column="1"
+                       Placeholder="Contraseña"
+                       TextColor="Black"
+                       IsPassword="True"
+                       Text="{Binding Contrasena}"
+                       VerticalOptions="Center"
+                       />
+                    </Grid>
+
+                    <Button Margin="0,20,0,0"
+                        x:Name="BntRegistrarse"
+                        Clicked="BntRegistrarse_Clicked"    
+                        BackgroundColor="ForestGreen"
+                        HeightRequest="60"
+                        Text="Registrarse"
+                        TextColor="White"/>
+                    
+                </VerticalStackLayout>
+            </ScrollView>
+        </Grid>
+    </Grid>
+</ContentPage>

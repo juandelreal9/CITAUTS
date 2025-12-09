@@ -1,0 +1,142 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:UTCITAS.Views"
+             x:Class="UTCITAS.Views.MiCuentaView"
+             Title="MiCuentaView">
+    <Grid RowDefinitions=".3*,.7*">
+        <Image Aspect="AspectFill" Source="logofondo.png"/>
+        <Grid BackgroundColor="ForestGreen" Opacity=".9"/>
+        <Grid ColumnDefinitions="*,*">
+            <Image Aspect="AspectFit"
+                   HeightRequest="120"
+                   Source="logouts.png"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+
+            <RoundRectangle Margin="0,-30,0,0"
+                            CornerRadius="30,30,0,0"
+                            Fill="White"/>
+
+            <ScrollView>
+                <VerticalStackLayout Margin="30,30,30,30">
+
+                    <Label FontAttributes="Bold"
+                           FontFamily="Bold"
+                           FontSize="Large"
+                           Text="Bienvenido a tu espacio de atención integral"
+                           TextColor="#2D2D2D"
+                           HorizontalOptions="Center"
+                           Margin="0,0,0,20"/>
+
+                    <Grid RowDefinitions="*,*" 
+                          ColumnDefinitions="*,*" 
+                          RowSpacing="20" 
+                          ColumnSpacing="20">
+
+                        <!-- Generar cita -->
+                        <Border Grid.Row="0" Grid.Column="0" 
+                                StrokeShape="RoundRectangle 10"  
+                                Padding="15" 
+                                BackgroundColor="#E8F5E9" 
+                                HeightRequest="150"
+                                StrokeThickness="0">
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="BtnGenerarCita_Clicked"/>
+                            </Border.GestureRecognizers>
+                            <VerticalStackLayout Spacing="10" 
+                                                 HorizontalOptions="Center" 
+                                                 VerticalOptions="Center">
+                                <!-- Opción 1: Usar emoji como texto -->
+                                <Label Text="➕"
+                                       FontSize="50"
+                                       HorizontalOptions="Center"/>
+
+                                <Label Text="Generar cita" 
+                                       FontAttributes="Bold" 
+                                       FontSize="16"
+                                       TextColor="Black" 
+                                       HorizontalOptions="Center"/>
+                            </VerticalStackLayout>
+                        </Border>
+
+                        <!-- Modificar cita -->
+                        <Border Grid.Row="0" Grid.Column="1" 
+                                StrokeShape="RoundRectangle 10"  
+                                Padding="15" 
+                                BackgroundColor="#E8F5E9" 
+                                HeightRequest="150"
+                                StrokeThickness="0">
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="BtnModificarCita_Clicked"/>
+                            </Border.GestureRecognizers>
+                            <VerticalStackLayout Spacing="10" 
+                                                 HorizontalOptions="Center" 
+                                                 VerticalOptions="Center">
+                                <Label Text="📋"
+                                       FontSize="50"
+                                       HorizontalOptions="Center"/>
+
+                                <Label Text="Modificar cita" 
+                                       FontAttributes="Bold" 
+                                       FontSize="16"
+                                       TextColor="Black" 
+                                       HorizontalOptions="Center"/>
+                            </VerticalStackLayout>
+                        </Border>
+
+                        <!-- Mi Perfil -->
+                        <Border Grid.Row="1" Grid.Column="0" 
+                                StrokeShape="RoundRectangle 10"  
+                                Padding="15" 
+                                BackgroundColor="#E8F5E9" 
+                                HeightRequest="150"
+                                StrokeThickness="0">
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="BtnMiPerfil_Clicked"/>
+                            </Border.GestureRecognizers>
+                            <VerticalStackLayout Spacing="10" 
+                                                 HorizontalOptions="Center" 
+                                                 VerticalOptions="Center">
+                                <Label Text="👤"
+                                       FontSize="50"
+                                       HorizontalOptions="Center"/>
+
+                                <Label Text="Mi Perfil" 
+                                       FontAttributes="Bold" 
+                                       FontSize="16"
+                                       TextColor="Black" 
+                                       HorizontalOptions="Center"/>
+                            </VerticalStackLayout>
+                        </Border>
+
+                        <!-- Ayuda -->
+                        <Border Grid.Row="1" Grid.Column="1" 
+                                StrokeShape="RoundRectangle 10"  
+                                Padding="15" 
+                                BackgroundColor="#E8F5E9" 
+                                HeightRequest="150"
+                                StrokeThickness="0">
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="BtnAyuda_Clicked"/>
+                            </Border.GestureRecognizers>
+                            <VerticalStackLayout Spacing="10" 
+                                                 HorizontalOptions="Center" 
+                                                 VerticalOptions="Center">
+                                <Label Text="❓"
+                                       FontSize="50"
+                                       HorizontalOptions="Center"/>
+
+                                <Label Text="Ayuda"
+                                       FontAttributes="Bold" 
+                                       FontSize="16"
+                                       TextColor="Black" 
+                                       HorizontalOptions="Center"/>
+                            </VerticalStackLayout>
+                        </Border>
+                    </Grid>
+                </VerticalStackLayout>
+            </ScrollView>
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTCITAS", "UTCITAS\UTCITAS.csproj", "{802D1E5B-DC76-4858-A8F3-B6850951010C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{802D1E5B-DC76-4858-A8F3-B6850951010C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802D1E5B-DC76-4858-A8F3-B6850951010C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802D1E5B-DC76-4858-A8F3-B6850951010C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802D1E5B-DC76-4858-A8F3-B6850951010C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFFEC2DD-5784-466F-835A-15FB84CA9943}
+	EndGlobalSection
+EndGlobal
